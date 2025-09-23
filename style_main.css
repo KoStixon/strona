@@ -1,0 +1,67 @@
+body {
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to bottom, white 0%, rgb(155, 238, 227) 35%  ,aqua 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+#header {
+    text-align: center;
+    color: darkblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: rgba(255, 248, 220, 0.6);
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+#header:hover {
+
+    color: blueviolet;
+    border-radius: 100px;
+    width: 1200px;
+    transition: 0.5s;
+}
+
+#links {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(255, 248, 220, 0.6);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+#links a {
+    text-decoration: none;
+    color: darkblue;
+    margin: 15px;
+    font-weight: lighter;
+}
+
+#links a:hover {
+    background-color: rgba(0, 139, 139, 0.3);
+    color: blueviolet;
+    border-radius: 10px;
+    width: max-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: 0.3s;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center; 
+    font-size: 15px;
+    background-color: rgba(255, 248, 220, 0.6);
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
