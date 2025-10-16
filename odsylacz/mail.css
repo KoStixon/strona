@@ -1,0 +1,43 @@
+#main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+#mailto {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+#mailto:hover {
+    background-color: lightgray;
+    transition: 500ms;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+img {
+    max-width: 30vw;
+    border-radius: 100%;
+}
+
+p {
+    text-decoration: underline;
+}
+
+#go_back {
+    border-radius: 100%;
+    transition: all ease-in-out 3s;
+}
+
+#go_back:hover {
+    rotate: 720deg;
+    transition: 3s ease-in-out;
+    border-radius: 100%;
+}
