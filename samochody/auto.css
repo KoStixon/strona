@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(211, 211, 211, 0.4);
+    max-width: 90vw;
+    margin: auto;
+}
+
+h1, p {
+    text-align: justify;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    max-width: 50vw;
+    height: auto;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.description {
+    text-align: justify;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.anchor {
+    max-width: fit-content;
+    margin-left: 20vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.anchor:hover {
+    transition: 500ms;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
