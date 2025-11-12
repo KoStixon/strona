@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.spooky {
+    color: white;
+    font-family: 'Creepster', cursive;
+    animation: float 4s ease-in-out infinite;
+}
+
+.spooky h1 {
+    font-size: 5em;
+    text-align: center;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange;
+    }
+    to {
+        text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red;
+    }
+}
+
+.spooky p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 3vh;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255);
+    animation: flicker 1500ms ease-out infinite alternate;
+}
+
+@-webkit-keyframes flicker {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(-20px);
+    }
+    30% {
+        transform: translateY(-15px);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+    70% {
+        transform: translateY(-15px);
+    }
+    90% {
+        transform: translateY(-20px);
+    }
+    
+}
