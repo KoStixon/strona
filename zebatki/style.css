@@ -34,7 +34,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 40%;
     background-color: #009dff;
     color: white;
     font-size: 30px;
@@ -50,7 +50,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     background-color: #5ac4dc;
 }
 
@@ -70,4 +70,5 @@ footer {
     background-color: #45527F;
     font-size: 20px;
     padding-right: 60px;
+
 }
