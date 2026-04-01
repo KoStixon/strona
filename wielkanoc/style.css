@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    font-family: "Ink Free";
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    font-family: "Ink Free";
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+img {
+    margin: 20px;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease;
+    scale: 0.8;
+    padding: 10px;
+}
+
+img:hover {
+    opacity: 0.8;
+    background-color: rgba(60, 60, 60, 0.18);
+    cursor: pointer;
+    border-radius: 20px;
+    transform: scale(116%);
+}
+
+h1:hover {
+    opacity: 0.8;
+    color: rgb(204, 159, 159);
+    cursor: pointer;
+}
